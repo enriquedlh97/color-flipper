@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <!-- Link to styles file -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+            <h4>color flipper</h4>
+            <!-- Adds unordered list -->
+            <ul class="nav-links">
+                <!-- 1st list items -->
+                <li>
+                    <!-- Allows to call home -->
+                    <a href="index.html">simple</a>
+                </li>
+                <!-- 2nd list items -->
+                <li>
+                    <!-- Allows to call home -->
+                    <a href="hex.html">hex</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <!-- Diplays the color being used -->
+        <div class="container">
+            <!-- span is an inline container for marking up part of the text. 
+                It will contain the current background color -->
+            <h2>background color: <span class="color">
+                #f1f5f8
+            </span></h2>
+            <!-- Button with 2 classes: btn and btn-hero 
+                the id allows to target the button with javascript-->
+            <button class="btn btn-hero" id="btn">click me</button>
+        </div>
+    </main>
+</body>
+</html>
