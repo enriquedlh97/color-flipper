@@ -7,7 +7,7 @@ const colors = ["green", "red", "rgba(133, 122, 200)", "#f15025"];
 const btn = document.getElementById("btn");
 // Target the color span which has class of color. The querySelector
 // allows to select element based on CSS selector, ie id, class or any other type
-const btn = document.querySelector(".color");
+const color = document.querySelector(".color");
 
 // set up event listener for click events
 btn.addEventListener("click", function () {
