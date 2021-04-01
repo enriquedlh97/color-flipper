@@ -25,12 +25,14 @@ btn.addEventListener("click", function () {
 
   // Targets the span tag which has the tag of color and changes the
   // text element being displayed to include the current background color
-  color.TextContent = colors[randomNumber];
+  console.log(color.textContent);
+  color.textContent = colors[randomNumber];
+  console.log(color.textContent);
 });
 
 // function to get random number beteen 0 and 3
 function getRandomNumber() {
   // Genreates random number between 0 and 1 and multiplies by four
   // to lower range beteen 0 and 3
-  return Math.floor(Math.random() * color.length);
+  return Math.floor(Math.random() * colors.length);
 }
